@@ -1,0 +1,13 @@
+# Project-specific overrides
+# See https://github.com/github/linguist
+# Exclude build artifacts
+*.yml linguist-detectable=false
+
+*.html linguist-vendored
+*.gif binary 
+*.jpeg binary
+*.jpg binary
+src/** linguist-detectable
+*.md linguist-documentation
+* text=auto eol=lf
+# eof 9731162c
