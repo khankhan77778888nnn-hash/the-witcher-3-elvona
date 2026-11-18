@@ -1,0 +1,7 @@
+.next/
+.DS_Store
+build/
+yarn-error.log*
+.pnpm-store/
+node_modules/
+dist/
